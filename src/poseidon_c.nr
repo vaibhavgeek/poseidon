@@ -1,4 +1,4 @@
-fn POSEIDON_C(t: Field){
+fn POSEIDON_C(t: Field) -> [Field]{
     if t==2 {
         return [
             0x9c46e9ec68e9bd4fe1faaba294cba38a71aa177534cdd1b6c7dc0dbd0abd7a7,
@@ -76,7 +76,7 @@ fn POSEIDON_C(t: Field){
         ] 
             }
                        
-        else if t==3 {
+        else { if  t==3 {
             return [
             0xee9a592ba9a9518d05986d656f40c2114c4993c11bb29938d21d47304cd8e6e,
             0xf1445235f2148c5986587169fc1bcd887b08d4d00868df5696fff40956e864,
@@ -162,7 +162,7 @@ fn POSEIDON_C(t: Field){
         ] 
     }
                        
-    else if t==4 {
+    else { if  t==4 {
         return [
             0x19b849f69450b06848da1d39bd5e4a4302bb86744edc26238b0878e269ed23e5,
             0x265ddfe127dd51bd7239347b758f0a1320eb2cc7450acc1dad47f80c8dcf34d6,
@@ -255,7 +255,7 @@ fn POSEIDON_C(t: Field){
         ] 
     }
                        
-    else if t==5 {
+    else { if  t==5 {
             return [
             0xeb544fee2815dda7f53e29ccac98ed7d889bb4ebd47c3864f3c2bd81a6da891,
             0x554d736315b8662f02fdba7dd737fbca197aeb12ea64713ba733f28475128cb,
@@ -360,7 +360,7 @@ fn POSEIDON_C(t: Field){
         ] 
     }
                        
-    else if t==6 {
+    else { if  t==6 {
         return [
             0x1448614598e00f98e7ae7dea45fbd83bd968653ef8390cde2e86b706ad40c651,
             0xab7b291388e5c9e43c0dc1f591fb83ecdb65022e1b70af43b8a7b40c1dff7c3,
@@ -473,7 +473,7 @@ fn POSEIDON_C(t: Field){
         ] 
     }
                        
-    else if t==7 {
+    else { if  t==7 {
             return [
             0x2197703fceb4cbf07c6dbf46c4ad93e7d14e554db66d09102ff84824743fe4e7,
             0x1322f0fffc7e4854bd8b5fc23e7106b51f59bd5061d8b565aca2fd3efe512f79,
@@ -597,7 +597,7 @@ fn POSEIDON_C(t: Field){
         ] 
         }
                        
-    else if t==8 {
+    else { if  t==8 {
         return [
             0x123992df3b9daa65139ec13fbb52f7d348e134333684c1596feb0e8d8c3ad596,
             0x2fa46f5dba9909ce9984a01e2af30b550dfec978be92b49119a3959c7f623703,
@@ -730,7 +730,7 @@ fn POSEIDON_C(t: Field){
         ] 
     }
                        
-    else if t==9 {
+    else { if  t==9 {
         return [
             0x2088ce9534577bf38be7bc457f2756d558d66e0c07b9cc001a580bd42cda0e77,
             0x1b86e63908c4b12af43cec6810356c94d21c9e37d73dfff9742a58e0ec356be1,
@@ -870,7 +870,7 @@ fn POSEIDON_C(t: Field){
         ] 
             }
                        
-    else if t==10 {
+    else { if  t==10 {
         return [
             0xe1962c232fd0a6bb54ad8962a82b9838cfef19d290a55fc49d6debd061cd2f6,
             0x1e1f45cff3e74168accd0a94536fca6317128953eb47d8d2d79b847b355cf51,
@@ -1015,7 +1015,7 @@ fn POSEIDON_C(t: Field){
         ] 
     }
         
-    else if t==11 {
+    else { if  t==11 {
         return [
             0x752af3c6fdccaf3868276685f0a69b9749e1706a82917b64ec2ef847f804559,
             0x69503d417e25f4568c7858ba8334301c0fa19c1b348bc7e18a4c1ace1d15418,
@@ -1175,7 +1175,7 @@ fn POSEIDON_C(t: Field){
         ] 
             }
                        
-    else if t==12 {
+    else { if  t==12 {
         return [
             0x1512df0135b6692589f071140a60749cf775c642b300da2fb4ad5c6e23ad4e5f,
             0x2b109ae037ed30361cf6544b2f4ce58f356589896d6a8849482ed3f9b66e1198,
@@ -1336,7 +1336,7 @@ fn POSEIDON_C(t: Field){
         ] 
         }
                        
-    else if t==13 {
+    else { if  t==13 {
         return [
             0x1373c771cdf15121a224f330d84b6688ef9fe0038a3bc26a28e3196578a0000d,
             0x29f9fbda3c999836017f76e121af3aca5ce78bb48fa867a6a95e5b9db387533a,
@@ -1509,7 +1509,7 @@ fn POSEIDON_C(t: Field){
             0x1ba2ce3d6e352d0643b2d3c5c7c023b6d1777f246278cfe6e1654e9e5413b535] 
         }
                        
-        else if t==14 {
+        else { if  t==14 {
             return [
             0x304c29aeb6f1873847879576d30f1f6e8a3ce41082c15c7632df920d6db5164d,
             0x2b7380d8b25bca649b3f8bbd0a86ae417109069be27066f46fdd1c7c87d4c40c,
@@ -1697,7 +1697,7 @@ fn POSEIDON_C(t: Field){
         ] 
         }
                        
-    else if t==15 {
+    else { if  t==15 {
         return [
             0x148d9e4542066b125da6d69ff3fb676ebd27e6a38a1ff4281bd639c97af6ffd5,
             0xb60a28805324295fcaf51bb88d9692372cbf4eef1cba8b85cbc059346691a88,
@@ -1882,7 +1882,7 @@ fn POSEIDON_C(t: Field){
         ] 
         }
                        
-    else if t==16 {
+    else { if  t==16 {
         return [
             0x11e27da7b7ef964948a332974d07cceea778bc33aedbcd09de222fa22ad0b101,
             0x1f60381b83b44a8fe65a0f4142faaafc5fbf55f79133c5740c53f036a3065b65,
@@ -2078,7 +2078,7 @@ fn POSEIDON_C(t: Field){
             0x7b5719a1e09b96a5ce2c130b9d3ec76002d81bd6a8b46ad27274036bb363bba    
         ] 
         }         
-        else if t==17 {
+        else { if  t==17 {
             return [
             0x2fb583762b37592c6c5a95eb1d06694b6c6f9dc4f1ad4862dd8f5e67cb7a3f5c,
             0x12e9f46cd8231bb03d4028bf7a11d7c0e331dc05c088e6dc3d1d001da58b85a5,
@@ -2289,9 +2289,10 @@ fn POSEIDON_C(t: Field){
     else {
         return [0];
     }
+        }}}}}}}}}}}}}}}
 
 }
-fn POSEIDON_S(t: Field){
+fn POSEIDON_S(t: Field) -> [Field]{
     if t==2 {
         return [
             0x66f6f85d6f68a85ec10345351a23a3aaf07f38af8c952a7bceca70bd2af7ad5,
@@ -2465,7 +2466,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==3 {
+    else { if  t==3 {
         return [
             0x109b7f411ba0e4c9b2b70caf5c36a7b194be7c11ad24378bfedb68592ba8118b,
             0x3f0815ab463f1b76ee25a9b8768b3231a89752f427f4f063ab718e707576b31,
@@ -2755,7 +2756,7 @@ fn POSEIDON_S(t: Field){
         ] 
         }
                        
-    else if t==4 {
+    else { if  t==4 {
         return [
             0x236d13393ef85cc48a351dd786dd7a1de5e39942296127fd87947223ae5108ad,
             0x2ca7b911ea4f6a11da0bd5e72ab3cc621c5908b59ff3d76c609ea9c2fba8fa41,
@@ -3152,7 +3153,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==5 {
+    else { if  t==5 {
         return [
             0x251e7fdf99591080080b0af133b9e4369f22e57ace3cd7f64fc6fdbcf38d7da1,
             0x351d582486c39726623750495e297970b0e19787b49173a9388a0d5b08788ab,
@@ -3697,7 +3698,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==6 {
+    else { if  t==6 {
         return [
             0x124666f80561ed5916f2f070b1bd248c6d53f44d273d956a0c87b917692a4d18,
             0x6fac61a13c7139a37697a657fafd9c12611f196b60aab2342eb6e869de7069,
@@ -4362,7 +4363,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==7 {
+    else { if  t==7 {
         return [
             0x2abd9e16b7b48289aa19cdfec726fa3fa15cc1625102ae511bca45f39d337e9d,
             0x277ac8a3178a356b9072bb7b469ccd57a0a63dbf08fd0dd7356008d5307bb3e6,
@@ -5186,7 +5187,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==8 {
+    else { if  t==8 {
         return [
             0x1aa4d470abeaa2357079129d114bab1170944f929fc178216ad847d4430f3f27,
             0x1aaae08b891f5b2046c0e697f481c70f34b0c71e81cadc7603c7e5d31139d196,
@@ -6151,7 +6152,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                       
-    else if t==9 {
+    else { if  t==9 {
         return [
             0x190f922d97c8a7dcf0a142a3be27749d1c64bc22f1c556aaa24925d158cac56,
             0x152fa675f337216339a9274b97b08d74eba0f31110688589baac5df73d06ba99,
@@ -7227,7 +7228,7 @@ fn POSEIDON_S(t: Field){
         ] 
                        }
                        
-    else if t==10 {
+    else { if  t==10 {
        return [
             0xb1e797eee3f15b88ce3a1fafec88da1d6329ac3c34712db570de886cf569098,
             0x199593eecc85367004177e717d8adae09206aac28506281403748f85ebe9985f,
@@ -8372,7 +8373,7 @@ fn POSEIDON_S(t: Field){
         ] 
                        }
                        
-    else if t==11 {
+    else { if  t==11 {
                             return [
             0x26dba58ade8cda188f49e52fce7167b8f219dbd924d7786b0f98fb799fefa2e,
             0x239bbee0bd0536587314f5429186856d92bf093cb902a7513b11373dbcbf7134,
@@ -9763,7 +9764,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==12 {
+    else { if  t==12 {
          return [
             0x2cb13179d6e8a4ad1b9fec37376253cf64386ad905e240575fca86539b272dc6,
             0x2e57ee9089adcc51f2ec7d5fc42821e67fdf0a2f3d1add870823002a1e9ff4a9,
@@ -11148,7 +11149,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==13 {
+    else { if  t==13 {
         return [
             0xd064dee824928d39f2a8be7d2fa583223c33995784d228839adde2559592592,
             0x235ce940dbc6ae2af119016151581b3928bbf5dc663dc5f4b6cbf02305a440a5,
@@ -12778,7 +12779,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-     else if t==14 {
+     else { if  t==14 {
      return [
             0xe30a774c353a2cbf244d3d014d1a0e5ff0bac5e242673ae33f1bb2030feff68,
             0x1578623ddfe303311ac327a432aee9ac8552cf37d7be9b4323c9a792c5776c4,
@@ -14673,7 +14674,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==15 {
+    else { if  t==15 {
         return [
             0x4523bf1a8f284c6d95b310dec2b54e0e00e59b571dd9d46b6201c18e1b56dfe,
             0xd4e118218c553f4fd17f1dbb39ba942efd76cd18298bd6b72e1fde271c74372,
@@ -16418,7 +16419,7 @@ fn POSEIDON_S(t: Field){
         ] 
     }
                        
-    else if t==16 {
+    else { if  t==16 {
         return [
             0x2b6fd7bc3a3b595c206c43daac752b765a12255c37ab51ae183933737a8b8099,
             0x2fb280a1f23df0c4566f310cf31beafdc3e238a7d873fdc50655fe827868e909,
@@ -18406,7 +18407,7 @@ fn POSEIDON_S(t: Field){
             0x2964901a2b42e9aea1a6593662aeb9e12077a287434bda4ec2012e36a19dc95c
         ] 
     }                       
-    else if t==17 {
+    else { if  t==17 {
        return [
             0x196b76cefdcc7f6a54c71d40114a0bb82694c936f1573ac7ac1ea3fcce1fe938,
             0x2cbd265ce3e5beccb09bb3189ca08832cd4fe102f39f9ee2bfe851a8038ce383,
@@ -20656,9 +20657,9 @@ fn POSEIDON_S(t: Field){
     }
     else {
         return [0];
-    }
+    }}}}}}}}}}}}}}}}
 }
-fn POSEIDON_M(t: Field){
+fn POSEIDON_M(t: Field) -> [Field]{
   if t==2 {
         return
         [
@@ -20671,7 +20672,7 @@ fn POSEIDON_M(t: Field){
                 0x1274e649a32ed355a31a6ed69724e1adade857e86eb5c3a121bcd147943203c8
             ]
         ];
-    } else if t==3 {
+    } else { if  t==3 {
         return
         [
             [
@@ -20690,7 +20691,7 @@ fn POSEIDON_M(t: Field){
                 0x19a3fc0a56702bf417ba7fee3802593fa644470307043f7773279cd71d25d5e0
             ]
         ];
-    } else if t==4 {
+    } else { if  t==4 {
         return
         [
             [
@@ -20718,7 +20719,7 @@ fn POSEIDON_M(t: Field){
                 0xc15fc3a1d5733dd835eae0823e377f8ba4a8b627627cc2bb661c25d20fb52a
             ]
         ];
-    } else if t==5 {
+    } else { if  t==5 {
         return
         [
             [
@@ -20757,7 +20758,7 @@ fn POSEIDON_M(t: Field){
                 0x14074bb14c982c81c9ad171e4f35fe49b39c4a7a72dbb6d9c98d803bfed65e64
             ]
         ];
-    } else if t==6 {
+    } else { if  t==6 {
         return
         [
             [
@@ -20809,7 +20810,7 @@ fn POSEIDON_M(t: Field){
                 0x1b121c049cd1159e289007e0c9da9995cc4bab4c26fb888ec3972a8a2e656964
             ]
         ];
-    } else if t==7 {
+    } else { if  t==7 {
         return
         [
             [
@@ -20876,7 +20877,7 @@ fn POSEIDON_M(t: Field){
                 0x1b2e9d20d9b55deb048cabe1636f0e96363bec886679cbd91f332fb2bade44f
             ]
         ];
-    } else if t==8 {
+    } else { if  t==8 {
         return
         [
             [
@@ -20960,7 +20961,7 @@ fn POSEIDON_M(t: Field){
                 0x2b6b3bc340d4119e57831e4a2187013f1216ab3b639945dd92a984943241f1d0
             ]
         ];
-    } else if t==9 {
+    } else { if  t==9 {
         return
         [
             [
@@ -21063,7 +21064,7 @@ fn POSEIDON_M(t: Field){
                 0x1f47c67a4325672f17b8bd1ddbd80e4e9e6c62419a9c204cc7e8821892431aae
             ]
         ];
-    } else if t==10 {
+    } else { if  t==10 {
         return
         [
             [
@@ -21187,7 +21188,7 @@ fn POSEIDON_M(t: Field){
                 0x15eeb3e0541bcf010da0c47adb12f6df540b974d439c93e19ea4d02f9975d446
             ]
         ];
-    } else if t==11 {
+    } else { if  t==11 {
         return
         [
             [
@@ -21334,7 +21335,7 @@ fn POSEIDON_M(t: Field){
                 0x1ee950c45a0c2f4a4b64688a7935ed2b63d4fe5b414afa05c1a284674409f165
             ]
         ];
-    } else if t==12 {
+    } else { if  t==12 {
         return
         [
             [
@@ -21506,7 +21507,7 @@ fn POSEIDON_M(t: Field){
                 0xc7c9db952865fb9470f8aa1402536cb3b82276d9e288082ac7f83b10bcb6d17
             ]
         ];
-    } else if t==13 {
+    } else { if  t==13 {
         return
         [
             [
@@ -21705,7 +21706,7 @@ fn POSEIDON_M(t: Field){
                 0x19f11771049b5be81b43ca81e3611f4108a4b9dc30cd122441f74319c3adcde9
             ]
         ];
-    } else if t==14 {
+    } else { if  t==14 {
         return 
         [
             [
@@ -21933,7 +21934,7 @@ fn POSEIDON_M(t: Field){
                 0x85e380905eb2cb7e753d0ab0ff4918b232c734418b6bfe1331de492fc76b21c
             ]
         ];
-    } else if t==15 {
+    } else { if  t==15 {
         return
         [
             [
@@ -22192,7 +22193,7 @@ fn POSEIDON_M(t: Field){
                 0x11492ba406435f35623906ff45df11c39efb59fff09f501fb893d717e34f9d61
             ]
         ];
-    } else if t==16 {
+    } else { if  t==16 {
         return 
         [
             [
@@ -22484,7 +22485,7 @@ fn POSEIDON_M(t: Field){
                 0x208b7c8c1ff8422d4a1bd13a02a94681ce217d925f40d2875f73def14de7a220
             ]
         ];
-    } else if t==17 {
+    } else { if  t==17 {
         return
         [
             [
@@ -22813,9 +22814,9 @@ fn POSEIDON_M(t: Field){
         ];
     } else {
         return [[0]];
-    }
+    }}}}}}}}}}}}}}}}
 }
-fn POSEIDON_P(t: Field){
+fn POSEIDON_P(t: Field) -> [Field]{
     if t==2 {
         return
         [
@@ -22828,7 +22829,7 @@ fn POSEIDON_P(t: Field){
                 0x10a44ed9dd9ce568563394632833d8633690d329ae737c8c7220a9b197ee3f46
             ]
         ];
-    } else if t==3 {
+    } else { if  t==3 {
         return
         [
             [
@@ -22847,7 +22848,7 @@ fn POSEIDON_P(t: Field){
                 0x221c170e4d02a2479c6f3e47b5ff55781574f980d89038308a3ef37cce8463bd
             ]
         ];
-    } else if t==4 {
+    } else { if  t==4 {
         return
         [
             [
@@ -22875,7 +22876,7 @@ fn POSEIDON_P(t: Field){
                 0x182d95b63ec720b3af3a3bc6d0a6012d4885ba5754f32aa1f1d92ba130fe5745
             ]
         ];
-    } else if t==5 {
+    } else { if  t==5 {
         return
         [
             [
@@ -22914,7 +22915,7 @@ fn POSEIDON_P(t: Field){
                 0x17ac4855f295a3b8fb8ceded7f4b39290647a0145af56b03b01e957808d66fa7
             ]
         ];
-    } else if t==6 {
+    } else { if  t==6 {
         return
         [
             [
@@ -22966,7 +22967,7 @@ fn POSEIDON_P(t: Field){
                 0x280364612aadf31ee5b176ccc54b4a5f961cc782168c8f83ff2ab5b4d12adc0f
             ]
         ];
-    } else if t==7 {
+    } else { if  t==7 {
         return
         [
             [
@@ -23033,7 +23034,7 @@ fn POSEIDON_P(t: Field){
                 0x1749c39995115eef14e1bcb1ccd4cdfc5c928ff14e078b38f5af326ed6b1e099
             ]
         ];
-    } else if t==8 {
+    } else { if  t==8 {
         return
         [
             [
@@ -23117,7 +23118,7 @@ fn POSEIDON_P(t: Field){
                 0x288ac5e38d20b5159d4c37374d8ca702decbc6265b6396d30b2c2959ae2af9b7
             ]
         ];
-    } else if t==9 {
+    } else { if  t==9 {
         return
         [
             [
@@ -23220,7 +23221,7 @@ fn POSEIDON_P(t: Field){
                 0x236a813f6235546014ac3a47d20bd75b4b6357e043e1fba18a05ac59a9aded9b
             ]
         ];
-    } else if t==10 {
+    } else { if  t==10 {
         return
         [
             [
@@ -23344,7 +23345,7 @@ fn POSEIDON_P(t: Field){
                 0x1fcfdb43cbd7992f0088a9a85c95e4621873666105510f25ae576bc08d7f2084
             ]
         ];
-    } else if t==11 {
+    } else { if  t==11 {
         return
         [
             [
@@ -23491,7 +23492,7 @@ fn POSEIDON_P(t: Field){
                 0x277425a5970de392ade13f6ee3752600050830d3bbea3566438924ad5159df4a
             ]
         ];
-    } else if t==12 {
+    } else { if  t==12 {
         return
         [
             [
@@ -23663,7 +23664,7 @@ fn POSEIDON_P(t: Field){
                 0x2bfb96f78ef7fe047373d118c0aaa0140ff43e5dcabda257cde23856a654b6fb
             ]
         ];
-    } else if t==13 {
+    } else { if  t==13 {
         return
         [
             [
@@ -23862,7 +23863,7 @@ fn POSEIDON_P(t: Field){
                 0x1bb4555d8c5f8bbb268361d5e1c22f9555f7c9f4fabaa24355c963edc263af6a
             ]
         ];
-    } else if t==14 {
+    } else { if  t==14 {
         return
         [
             [
@@ -24090,7 +24091,7 @@ fn POSEIDON_P(t: Field){
                 0x63781e7bb64e40ef54a4ac17d47785b8fae5da0c4b3bdfe4de8edbda7029bef
             ]
         ]; 
-    } else if t==15 {
+    } else { if  t==15 {
         return
         [
             [
@@ -24349,7 +24350,7 @@ fn POSEIDON_P(t: Field){
                 0x11139f7a6884d0c2efc32997248db307bbc0cba48037fc518478e9634fcc745e
             ]
         ];
-    } else if t==16 {
+    } else { if  t==16 {
         return
         [
             [
@@ -24641,7 +24642,7 @@ fn POSEIDON_P(t: Field){
                 0xc872f10e24c0b992944862abd52152c0faa0aa508afb99a6e9a3d2d363a5c1e
             ]
         ];
-    } else if t==17 {
+    } else { if  t==17 {
         return
         [
             [
@@ -24970,5 +24971,5 @@ fn POSEIDON_P(t: Field){
         ];
     } else {
         return [[0]];
-    }
+    }}}}}}}}}}}}}}}}
 }
